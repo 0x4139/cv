@@ -111,3 +111,10 @@ a:visited {
     text-align: left;
   }
 }
+
+.last-updated {
+  margin: 0;
+  margin-bottom: 1em;
+  margin-left: 4px;
+  color: #ddd;
+}
