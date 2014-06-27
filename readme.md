@@ -1,1 +1,1 @@
-My personal curriculum vitae.
+My personal résumé.
