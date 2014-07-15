@@ -5,22 +5,23 @@
     <title>Theodor Văraru - CV</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- Basehold.it vertical rhythm helper. -->
+    <!-- <link rel="stylesheet" href="http://basehold.it/24"> -->
   </head>
   <body>
     <article>
       <section>
-        <p class="muted">Last updated: <span class="date">14 Jul 2014</span>. Source code for resumé available at <a href="https://github.com/tvararu/cv" target="_blank">https://github.com/tvararu/cv</a>.</p>
-      </section>
-      <section>
+        <p class="muted hide-print">Last updated: <span class="date">16 Jul 2014</span>. Source code for resumé available at <a href="https://github.com/tvararu/cv" target="_blank">https://github.com/tvararu/cv</a>.</p>
+
         <div class="columns">
-          <div>Matei Basarab 71 L111A Ap. 26<br/>Bucharest 030679</div>
+          <div>Matei Basarab 71 L111A Ap. 26<br>Bucharest 030679</div>
       
           <div>
             <h1 class="inline">Theodor Văraru</h1> 
           </div>
       
           <div>
-            <span>+40 (740) 04 13 59</span><br/>
+            <span>+40 (740) 04 13 59</span><br>
             <script type="text/javascript">
             <!--
              document.write("<a href='mailto:&#116;&#104;&#101;&#111;&#64;&#118;&#97;&#114;&#97;&#114;&#117;&#46;&#111;&#114;&#103;'>Email</a>")
@@ -38,36 +39,32 @@
           <div>University of Bucharest</div>
           <div>Oct 2012 - Present</div>
         </div>
-        <div class="content">
-          <ul>
-            <li>Studying Bachelors of Computer Science.</li>
-          </ul>
-        </div>
+        <ul>
+          <li>Studying Bachelors of Computer Science.</li>
+        </ul>
       </section>
       
       <section>
         <h2>Open Source Contributions</h2>
 
-        <div class="content">
-          <ul>
-            <li>Most notably in the Node.js, Meteor and Famo.us ecosystems. Examples include:
-              <ul>
-                <li>helping with the <a href="https://github.com/DiscoverMeteor/DiscoverMeteor_Ro/pull/4" target="_blank">Discover Meteor translation effort</a>;</li>
-                <li>fixing a broken package installation for the <a href="https://github.com/Homebrew/homebrew/pull/27121" target="_blank">Homebrew package manager</a>;</li>
-                <li>filing a bug for the pre-release version of the <a href="https://github.com/jenius/roots/issues/408" target="_blank">Roots static build system</a>;</li>
-                <li>maintaining a simple one-liner <a href="https://gist.github.com/tvararu/8504812" target="_blank">Meteor + Heroku europe deploy script</a>.</li>
-              </ul>
-            </li>
-            <li>I try not to let a day pass without pushing something to Github. Projects include:
-              <ul>
-                <li>a reimagined presentation of <a href="https://github.com/tvararu/the-last-question" target="_blank">Isaac Asimov’s The Last Question</a>;</li>
-                <li>experiments integrating Famo.us with <a href="https://github.com/tvararu/meteor-famous-playground" target="_blank">Meteor</a> or <a href="https://github.com/tvararu/angular-famous-playground" target="_blank">Angular.js</a>;</li>
-                <li>a command-line <a href="https://github.com/tvararu/ruby-tm" target="_blank">turing machine interpreter</a> distributed through RubyGems;</li>
-                <li>a Meteor + Three.js 3D <a href="https://github.com/tvararu/NEBUL4" target="_blank">browser-based MMO</a> (Romanian repo, unfinished).</li>
-              </ul>
-            </li>
-          </ul>
-        </div>
+        <ul>
+          <li>Most notably in the Node.js, Meteor and Famo.us ecosystems. Examples include:
+            <ul>
+              <li>helping with the <a href="https://github.com/DiscoverMeteor/DiscoverMeteor_Ro/pull/4" target="_blank">Discover Meteor translation effort</a>;</li>
+              <li>fixing a broken package installation for the <a href="https://github.com/Homebrew/homebrew/pull/27121" target="_blank">Homebrew package manager</a>;</li>
+              <li>filing a bug for the pre-release version of the <a href="https://github.com/jenius/roots/issues/408" target="_blank">Roots static build system</a>;</li>
+              <li>maintaining a simple one-liner <a href="https://gist.github.com/tvararu/8504812" target="_blank">Meteor + Heroku europe deploy script</a>.</li>
+            </ul>
+          </li>
+          <li>I try not to let a day pass without pushing something to Github. Projects include:
+            <ul>
+              <li>a reimagined presentation of <a href="https://github.com/tvararu/the-last-question" target="_blank">Isaac Asimov’s The Last Question</a>;</li>
+              <li>experiments integrating Famo.us with <a href="https://github.com/tvararu/meteor-famous-playground" target="_blank">Meteor</a> or <a href="https://github.com/tvararu/angular-famous-playground" target="_blank">Angular.js</a>;</li>
+              <li>a command-line <a href="https://github.com/tvararu/ruby-tm" target="_blank">turing machine interpreter</a> distributed through RubyGems;</li>
+              <li>a Meteor + Three.js 3D <a href="https://github.com/tvararu/NEBUL4" target="_blank">browser-based MMO</a> (Romanian repo, unfinished).</li>
+            </ul>
+          </li>
+        </ul>
       </section>
       
       <section>
@@ -78,75 +75,70 @@
           <div>ReadForward LLC</div>
           <div>March 2013 - Present</div>
         </div>
-        <div class="content">
-          <h3>LearnForwardAuthor (<a href="https://github.com/learnfwd/lfa" target="_blank">https://github.com/learnfwd/lfa</a>)</h3>
-          <ul>
-            <li>Built an open source, command-line build tool made with Node.js and distributed through npm. It provides a workflow for generating digital textbooks, implemented as responsive static single-page applications, and is used by developers in the team to produce content for our real-time classroom system.</li>
-            <li>Authored both the build tool which converts Jade, Stylus and JavaScript into source material for the frontend, and the Bootstrap + Backbone frontend which presents the content and augments it with static site searching, note-taking, and dynamic quiz exercises that store results locally.</li>
-            <li>Set up a complete development workflow based on Vagrant, Grunt, Mocha behaviour testing, PhantomCSS visual regression testing, and JSHint linting.</li>
-          </ul>
 
-          <h3>LearnForward (<a href="http://learnfwd.com/" target="_blank">http://learnfwd.com/</a>)</h3>
-          <ul>
-            <li>Real time, cross-device class management application that enables Google Docs-like collaboration between teachers and students. Meteor.js framework.</li>
-            <li>Wrote frontend modules for quiz-type exercises, built and improved upon the Bootstrap 3 based user interface by implementing modern paradigms such as off-canvas navigation or parallax scrolling, and fixed cross-browser compatibility issues.</li>
-          </ul>
-          
-          <h3>George Enescu Festival (<a href="http://festivalenescu.ro/" target="_blank">http://festivalenescu.ro/</a>)</h3>
-          <ul>
-            <li>Modern rewrite of the George Enescu festival website; responsive design, cloud infrastructure (Heroku, AWS), Bootstrap 2, SASS, PostgreSQL.</li>
-            <li>Single-handedly transitioned the PHP/Typo3 project to Ruby on Rails (RefineryCMS), importing old pages and assets and adding new features. Implemented a modern frontend with a mobile-friendly SPA-like experience via PJAX and Rails turbolinks, as well as a JSON API for the native iOS/Android app.</li>
-            <li>Deployed the application on modern PaaS infrastructure with a separate staging server. Used load testing and New Relic analytics to monitor and optimize the backend through memcache-based page template caching, database query fine-tuning and asset caching.</li>
-          </ul>
-        </div>
+        <h3>LearnForwardAuthor <a href="https://github.com/learnfwd/lfa" target="_blank">https://github.com/learnfwd/lfa</a></h3>
+        <ul>
+          <li>Built an open source, command-line build tool made with Node.js and distributed through npm. It provides a workflow for generating digital textbooks, implemented as responsive static single-page applications, and is used by developers in the team to produce content for our real-time classroom system.</li>
+          <li>Authored both the build tool which converts Jade, Stylus and JavaScript into source material for the frontend, and the Bootstrap + Backbone frontend which presents the content and augments it with static site searching, note-taking, and dynamic quiz exercises that store results locally.</li>
+          <li>Set up a complete development workflow based on Vagrant, Grunt, Mocha behaviour testing, PhantomCSS visual regression testing, and JSHint linting.</li>
+        </ul>
+
+        <h3>LearnForward <a href="http://learnfwd.com/" target="_blank">http://learnfwd.com/</a></h3>
+        <ul>
+          <li>Real time, cross-device class management application that enables Google Docs-like collaboration between teachers and students. Meteor.js framework.</li>
+          <li>Wrote frontend modules for quiz-type exercises, built and improved upon the Bootstrap 3 based user interface by implementing modern paradigms such as off-canvas navigation or parallax scrolling, and fixed cross-browser compatibility issues.</li>
+        </ul>
+
+        <h3>George Enescu Festival <a href="http://festivalenescu.ro/" target="_blank">http://festivalenescu.ro/</a></h3>
+        <ul>
+          <li>Modern rewrite of the George Enescu festival website; responsive design, cloud infrastructure (Heroku, AWS), Bootstrap 2, SASS, PostgreSQL.</li>
+          <li>Single-handedly transitioned the PHP/Typo3 project to Ruby on Rails (RefineryCMS), importing old pages and assets and adding new features. Implemented a modern frontend with a mobile-friendly SPA-like experience via PJAX and Rails turbolinks, as well as a JSON API for the native iOS/Android app.</li>
+          <li>Deployed the application on modern PaaS infrastructure with a separate staging server. Used load testing and New Relic analytics to monitor and optimize the backend through memcache-based page template caching, database query fine-tuning and asset caching.</li>
+        </ul>
       </section>
       
       <section>
         <h2>Awards and Additional Experience</h2>
-        <div class="content">
-          <ul>
-            <li>I made an online gradebook in 2011 (Apache + Mysql + PHP stack, Ajax, Windows Phone 7 styling) for use in my high-school, which earned me awards in a number of  national application development contests:
-              <ul>
-                <li><strong>ITFest</strong> 2011 - 1st prize;</li>
-                <li><strong>StudIT</strong> 2012 - 3rd prize;</li>
-                <li><strong>GrepIT</strong> 2012 - 3rd prize.</li>
-              </ul>
-            </li>
-            <li>Qualified for the national high-school Olympiads in English and Computer Science four times.</li>
-            <li>Speaker at local technology conferences. Topics: “Bitcoin", “Rapid Static Website Prototyping”.</li>
-            <li>Attended local hackathons: Hackathon.ro 2012, WOWZAPP 2012, Google Student Ambassador ACS vs FMI 2012, RaspberryHack 2013.</li>
-          </ul>
-        </div>
+
+        <ul>
+          <li>I made an online gradebook in 2011 (Apache + Mysql + PHP stack, Ajax, Windows Phone 7 styling) for use in my high-school, which earned me awards in a number of  national application development contests:
+            <ul>
+              <li><strong>ITFest</strong> 2011 - 1st prize;</li>
+              <li><strong>StudIT</strong> 2012 - 3rd prize;</li>
+              <li><strong>GrepIT</strong> 2012 - 3rd prize.</li>
+            </ul>
+          </li>
+          <li>Qualified for the national high-school Olympiads in English and Computer Science four times.</li>
+          <li>Speaker at local technology conferences. Topics: “Bitcoin", “Rapid Static Website Prototyping”.</li>
+          <li>Attended local hackathons: Hackathon.ro 2012, WOWZAPP 2012, Google Student Ambassador ACS vs FMI 2012, RaspberryHack 2013.</li>
+        </ul>
       </section>
       
       <section>
         <h2>Languages and Technologies</h2>
-        <div class="content">
-          <ul>
-            <li><strong>Languages</strong>:
-              <ul>
-                <li>Expert knowledge of JavaScript, HTML, CSS, Jade, Stylus.</li>
-                <li>Good knowledge of Ruby, LESS, SASS, CoffeeScript, Bash, LaTeX, PHP.</li>
-                <li>Working knowledge of Java, C, C++, Python, Perl, Haskell (Yesod framework).</li>
-              </ul>
-            </li>
-            <li><strong>Frameworks and Libraries</strong>:
-              <ul>
-                <li>Expert knowledge of jQuery, Backbone, Underscore, Roots.cx, Bootstrap.</li>
-                <li>Good knowledge of Node.js, Ruby on Rails, Meteor, Famo.us, Angular.js, Grunt, Gulp.</li>
-                <li>Working knowledge of React, Ember, ASM.js/Emscripten.</li>
-              </ul>
-            </li>
-            <li><strong>Tools and Services</strong>: UNIX, Git, Github, zsh, Bitbucket, Jira, Slack, TextMate, Vim, Vagrant, Dokku, Heroku, AWS, Brew, Photoshop, Sketch.
-          </ul>
-        </div>
+
+        <ul>
+          <li><strong>Languages</strong>:
+            <ul>
+              <li>Expert knowledge of JavaScript, HTML, CSS, Jade, Stylus.</li>
+              <li>Good knowledge of Ruby, SASS, Bash, LaTeX, PHP.</li>
+              <li>Working knowledge of C, C++, Python.</li>
+            </ul>
+          </li>
+          <li><strong>Frameworks and Libraries</strong>:
+            <ul>
+              <li>Expert knowledge of jQuery, Backbone, Underscore, Roots.cx, Bootstrap.</li>
+              <li>Good knowledge of Node, Rails, Meteor, Famo.us, Angular, Grunt, Gulp.</li>
+            </ul>
+          </li>
+          <li><strong>Tools and Services</strong>: UNIX, zsh, Jira, Slack, Vim, Vagrant, Dokku, Heroku, AWS, Brew.
+        </ul>
       </section>
       
       <section>
         <h2>Hobbies and Interests</h2>
-        <div class="content">
-          <p>Convincing people to learn to code, lurking Hacker News, hacking robots with Lego Mindstorms. I practice electric guitar, street dancing and beatboxing.</p>
-        </div>
+        
+        <p>I spend my spare time lurking Hacker News and Sidebar.io, trying to keep at the bleeding edge of the latest technology trends. Other past-times include teaching and convincing people to learn to code, hacking robots with Lego Mindstorms, adding more features to my RaspberryPi home media center or to my DigitalOcean servers, and practicing electric guitar, street dancing and beatboxing.</p>
       </section>
     </article>
   </body>
