@@ -34,11 +34,11 @@ article {
 
 @media print {
   body {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   article {
-    padding: 0 2em;
+    padding: 1em;
   }
 
   .hide-print {
