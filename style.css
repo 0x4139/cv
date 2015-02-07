@@ -57,7 +57,7 @@ a:hover {
   color: #bdc3c7;
 }
 
-.muted .date,
+.muted #date,
 .muted a {
   color: #95a5a6;
 }
@@ -159,4 +159,15 @@ hr {
   border: none;
   margin: 0;
   margin-top: 1.5em;
+}
+
+#last-updated {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+#last-updated.ready {
+  opacity: 1;
 }
