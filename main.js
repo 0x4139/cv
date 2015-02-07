@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   var request = new XMLHttpRequest();
   request.open('GET', 'https://api.github.com/repos/tvararu/cv');
+  request.setRequestHeader('Accept', 'application/vnd.github.v3+json');
   request.onreadystatechange = function handleStateChange() {
     var responseReady = (request.readyState === 4 && this.status >= 200 && this.status < 300);
     if (responseReady) {
