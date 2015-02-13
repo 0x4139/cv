@@ -145,7 +145,7 @@ ul {
   text-align: right;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 700px) and not print {
   .columns div:nth-child(1),
   .columns div:nth-child(2),
   .columns div:nth-child(3) {
